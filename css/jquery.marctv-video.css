@@ -1,0 +1,65 @@
+.jqvideo {
+    padding: 0;
+    margin: 0;
+}
+
+.jqvideo .crop {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+
+.jqvideo .crop .layer {
+    display: block;
+    position: absolute;
+}
+
+.jqvideo .dashicons {
+    /* play button color */
+    color: #333;
+    display:inline-block;
+    font-family:dashicons;
+    font-size:100px;
+    font-style:normal;
+    font-weight:400;
+    height:85px;
+    line-height:1;
+    opacity:0.9;
+    position:absolute;
+    text-align:center;
+    text-decoration:inherit;
+    text-shadow:0 0 20px #FFF;
+    vertical-align:top;
+    width:100px;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-font-smoothing:antialiased;
+    -webkit-transition:color 0.1s ease-in;
+    transition: color 0.1s ease-in;
+
+}
+
+.jqvideo .crop:hover .dashicons {
+    /* play button hover color */
+    color: #E62117;
+
+}
+
+.jqvideo .crop {
+    cursor: pointer;
+}
+
+.jqvideo .videotype {
+    position: absolute;
+    height: 30px;
+    padding-left: 0.4em;
+    left: 0;
+    top: 0;
+    color: #eee;
+    font: 700 90%/1.625 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: 0 0 1px #000000;
+}
+
+.jqvideo.no-caption .wp-caption-text {
+    display: none;
+}
